@@ -15,6 +15,9 @@
     <!-- LOAD CSS FILE-->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
 
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -61,7 +64,7 @@
                 </h1>
             </section>
             <section class="about-us wrapper">
-                <div>
+                <div data-aos="fade-down">
                     <p class="about-us-text">Market-Hub es un repositorio de estrategias, rutinas, e ideas para traders
                         e inversores. Operando
                         en Forex,</p>
@@ -296,6 +299,13 @@
         </footer>
 
     </div>
+
+     <!-- AOS -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+     <script>
+         AOS.init();
+     </script>
 </body>
 
 </html>
