@@ -17,7 +17,9 @@
 }
 
 
-
+.nav-menu{
+    display: none;
+}
 
 nav.nav-menu a {
 
@@ -86,8 +88,39 @@ p.about-us-text {
     line-height: 1.5;
 }
 
+.bg-phome{
+    background-color: black;
+}
+
+.bg-pageshome{
+    background-color: white;
+}
+
+.pages-display a:hover{
+    color:#9fe1f1;
+    /*background-color: #040303;*/
+}
+
+.pages-display{
+    display: flex;
+   
+}
+/*
 
 
+.bg-phome a:hover {
+    background-color: white;
+    color: black;
+}*/
+
+
+.new-navbar li {
+    margin-right: 20px;
+}
+
+.new-navbar li a{
+    text-transform: uppercase;
+}
 
 
 
@@ -300,6 +333,10 @@ CSS HTMLs (EXCEPT INDEX)
     color: black;
 }
 
+.nav-menu-pages{
+    display: none;
+}
+
 .nav-menu-pages ul {
     display: flex;
 }
@@ -412,6 +449,18 @@ FORMULARIO DE CONTACTO
 @media screen and (min-width: 0px) and (max-width:375px){*/
 @media screen and (min-width: 0px) and (max-width:749px){ 
     
+    .nav-menu{
+        display: block;
+    }
+
+    .navbar-my-pages{
+        display: none;
+    }
+
+    .nav-menu-pages{
+        display: block;
+    }
+
     .header-style{
         height: 250px;
         width: auto;
@@ -530,8 +579,19 @@ FORMULARIO DE CONTACTO
 
 /* TABLET 
 @media screen and (min-width: 376px) and (max-width: 1300px) {*/
-@media screen and (min-width: 750px) and (max-width: 1300px) {
+@media screen and (min-width: 750px) and (max-width: 991px) {
 
+    .nav-menu{
+        display: block;
+    }
+
+    .navbar-my-pages{
+        display: none;
+    }
+
+    .nav-menu-pages{
+        display: block;
+    }
 
     #header-logo {
         margin-right: 20px; 
